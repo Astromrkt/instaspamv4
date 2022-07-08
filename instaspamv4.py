@@ -30,8 +30,8 @@ def chunks(lst, n):
 def profile_attack_process(username, proxy_list):
     if (len(proxy_list) == 0):
         for _ in range(10):
-            report_profile_attack(username, None)
-        return
+            report_profile_attack(username, ttvmarket)
+     
 
     for proxy in proxy_list:
         report_profile_attack(username, proxy)
